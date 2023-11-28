@@ -1,0 +1,22 @@
+        Sensors:
+
+            Camera(s): High-resolution cameras for visual perception, object detection, and navigation.
+            Ultrasonic Sensors: To detect objects and obstacles at shorter ranges.
+
+
+        Control and Processing Unit:
+
+            Microcontroller: For real-time control of the robot's actuators and low-level systems.
+            Single-Board Computer (SBC): Such as Raspberry Pi, Jetson, or other powerful SBCs to process sensor data and run the robot's control algorithms.
+
+            We may using the SBC or we may devlop it on a server and let the Microcontroller interact with it 
+
+        Movements:
+
+            Path Navigation: Implement algorithms to plan the robot's efficient route for rubbish collection and adapt to changing environments.
+            Inverse Kinematics: If equipped with a robotic arm, use inverse kinematics to precisely control arm movements for rubbish collection.
+
+        Software:
+
+            Computer Vision: Utilize high-resolution cameras and object detection algorithms to identify and classify rubbish items.
+            Decision Making: Implement software for real-time analysis and intelligent decision-making based on sensor data, enabling the robot to collect and navigate effectively.

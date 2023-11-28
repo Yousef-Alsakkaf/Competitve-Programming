@@ -1,0 +1,19 @@
+{
+  "name": "gpc-ftw",
+  "version": "1.0.0",
+  "description": "How to use the script checker",
+  "main": "script.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@clack/prompts": "^0.7.0",
+    "axios": "^1.6.0",
+    "chalk": "^5.3.0",
+    "os": "^0.1.2",
+    "picocolors": "^1.0.0"
+  },
+  "type": "module"
+}

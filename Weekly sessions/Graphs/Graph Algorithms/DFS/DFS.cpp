@@ -41,8 +41,8 @@ int main()
     vector<vector<int>> adj(v + 1);
     for(int i = 0; i < e; i++)
     {
-        int u, w;
-        cin >> u >> w;
+        int u, w; 
+        cin >> u >> w; // taking the inputs
 
         adj[u].push_back(w);
         adj[w].push_back(u);

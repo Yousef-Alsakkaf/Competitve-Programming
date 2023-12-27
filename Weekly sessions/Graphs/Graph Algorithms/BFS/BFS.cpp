@@ -19,11 +19,11 @@ vector<int> bfs(int v, vector<vector<int>>& adj)
         bfs.push_back(node);
         for (int i = 0; i < adj[node].size(); i++)
         {
-            int neighbor = adj[node][i];
-            if (!visited[neighbor])
+            int element = adj[node][i];
+            if (!visited[element])
             {
-                visited[neighbor] = true;
-                q.push(neighbor);
+                visited[element] = true;
+                q.push(element);
             }
         }
     }
